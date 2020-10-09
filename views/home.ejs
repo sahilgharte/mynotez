@@ -1,0 +1,26 @@
+
+  <%- include('partials/header') %>
+  <%- include('partials/nav-bar') %>
+
+<section class="greeting">
+      <div class="container-fluid">
+        <h1 class="font-weight-bold greeting-text ">HELLO!</h1>
+        <h2 class="greeting-cover-text">Welcome to Student Upload Portal,</h2>
+        <h2 class="greeting-cover-text">Where Students can circulate their Study Material,
+        <h2 class="greeting-cover-text">Which can be accessed by others!</h2>
+      </div>
+    </section>
+
+    <section class="search-bar">
+        <div class="container-fluid">
+        <form action="/allfiles" method="GET" class="form-inline ">
+          <div class="form-group search-bar-style ">
+            <input type="text" class="input-search-bar-style" autocomplete="off" name="search" placeholder="Search Notes..." class="form-control">
+            <input type="submit" value="Search" class="btn btn-dark">
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+<%- include("partials/footer") %>

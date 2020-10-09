@@ -1,0 +1,170 @@
+
+body{
+    background: black;
+}
+h1,h2,h3,h4{
+  color: white;
+  text-align: center;
+}
+a:hover{
+  color: white;
+}
+
+/* nav-bar */
+.nav-bar{
+  padding: 5% 15%;
+}
+
+.navbar-style{
+    background: linear-gradient(to right,#000000 0%, #000000 100%);
+    color: #66fcf1;
+}
+
+.navbar-link {
+  color: #66fcf1 !important;
+}
+
+
+/* greeting */
+
+.greeting-text{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #66fcf1;
+  font-size:15vw;
+}
+.greeting-text:hover{
+  color: white;
+}
+
+
+.greeting-cover-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+/* search */
+.search-bar{
+  margin-top: 1%;
+  /* margin-bottom: 2%; */
+  margin-left: 37%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.input-search-bar-style{
+  background-color:Black;
+  color:White;
+  border-color:#66fcf1;
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* htu */
+.main-pointer{
+  font-family: 'Roboto', sans-serif;
+  color: #66fcf1;
+}
+.list-style{
+  font-size: 1.5rem;
+  list-style-type:none;
+}
+.small-pointer{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit],input[type=text] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search-bar {
+  margin-left: 20%;
+  }
+}
+
+#register{
+  width: auto;
+  max-width: 700px;
+  margin:auto;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login{
+  width: auto;
+  max-width: 700px;
+  margin:auto;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.btn-dark .btn-light{
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#log{
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#opt{
+  text-align: center;
+}
+
+#google{
+  width: 50px;
+  height: 50px;
+  background-color: #ea4335;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 20px auto;
+  transition: 0.6s;
+}
+
+#google:hover{
+  background-color: black;
+}
+
+#google i{
+  color: white;
+}
+
+
+footer{
+  text-align: center;
+  margin: 40px;
+}
+
+footer i{
+  margin: 20px;
+}
+
+.footer-p{
+  color: white;
+}
